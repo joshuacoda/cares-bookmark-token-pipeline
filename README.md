@@ -16,6 +16,8 @@
  venv\Scripts\activate # Windows
  2. Install dependencies:
  pip install -r requirements.txt
+ 3. Put original CWS CMS bookmark forms in input/original folder
+ 4. run main.py
  ## Requirements
  python-docx
  pandas
