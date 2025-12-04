@@ -17,6 +17,10 @@ output/tokens/*
 input/original/*
 !input/original/.gitkeep
 
+# Ignore all CSV files in output/ directory
+output/**/*.csv
+output/*.csv
+
 # Office temporary files
 ~$*.docx
 
