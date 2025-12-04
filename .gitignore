@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.env/
+
+# Ignore contents of these folders, but allow their .gitkeep
+output/bookmarks/*
+!output/bookmarks/.gitkeep
+
+output/tokens/*
+!output/tokens/.gitkeep
+
+# Also ignore raw input/original contents but keep folder if desired
+input/original/*
+!input/original/.gitkeep
+
+# Office temporary files
+~$*.docx
+
+# IDE configs
+.vscode/
+.idea/
